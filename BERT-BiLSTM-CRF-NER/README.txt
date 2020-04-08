@@ -7,7 +7,7 @@ tensorflow 1.14.0 (注：不要使用tensorflow2.0版本，因为bert基于tenso
 训练：
 命令：python3 bert_lstm_ner.py
 操作：
-步骤1：下载并解压预训练的bert模型 》chinese_L-12_H-768_A-12
+步骤1：检查是否有./chinese_L-12_H-768_A-12;没有则下载并解压预训练的bert模型>>> chinese_L-12_H-768_A-12
 步骤2：如果没有./bert源文件 则下载源文件 https://github.com/google-research/bert 
 步骤4：检查是否有目录 ./output，没有则创建
 步骤4：执行命令 python3 bert_lstm_ner.py
